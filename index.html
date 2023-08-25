@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess my number</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo"> 🔢 Guess No</span></div>
+      <button class="btn restart">Restart 🔄️</button>
+    </header>
+
+    <main>
+      <div class="instruction">(Choose a number between 1 - 20)</div>
+
+      <div class="check-number">
+        <div class="guess-box">
+          <input
+            type="number"
+            min="1"
+            max="20"
+            class="guess-input"
+          />
+          <button class="btn guess">Guess 🫣</button>
+        </div>
+
+        <div class="number-box">
+          <div class="number">?</div>
+        </div>
+      </div>
+
+      <div class="msg-container">
+        <div class="message">🙈 Start guessing...</div>
+        <div class="score-highscore">
+          <div class="score-box">💙 Remaining Guess = <span class="score"> 20</span></div>
+          <div class="highscore-box">⚡ Highscore = <span class="highscore"> 0</span></div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div>Created by Sisay Kewiti ©️2023</div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

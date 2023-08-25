@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Black Ops One', cursive;
+  color: #fff;
+  background-color: #333;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.header {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 3.2rem 3.2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  margin-bottom: 6.4rem;
+}
+
+.logo {
+  font-size: 2.4rem;
+}
+
+.btn {
+  font-family: inherit;
+  cursor: pointer;
+  color: #333;
+  border: none;
+  outline: none;
+  font-size: 1.8rem;
+  padding: 0.8rem 1.4rem;
+  border-radius: 0.4rem;
+  display: inline-block;
+}
+
+.btn:hover {
+  box-shadow: 0 0 0.4rem rgba(255, 255, 255, 0.307);
+}
+
+main {
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 0 6.4rem;
+  height: 73vh;
+}
+
+.instruction {
+  text-align: center;
+  font-family: cursive;
+  font-size: 2rem;
+  color: #ccc;
+  margin-bottom: 6.4rem;
+}
+
+.check-number {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6.4rem;
+}
+
+.guess-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.guess-input::placeholder {
+  color: #f0f0f09e;
+  font-size: 1.6rem;
+  font-family: cursive;
+}
+
+.guess-input {
+  display: inline-block;
+  padding: 0.8rem;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-family: inherit;
+  border: 3px solid #f0f0f0;
+  color: #f0f0f0;
+  font-size: 1.8rem;
+  width: 16rem;
+  padding: 2.4rem 0;
+  text-align: center;
+}
+
+.number {
+  font-size: 6.4rem;
+  width: 9.6rem;
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 1.2rem 0 0.8rem;
+  text-align: center;
+  border-radius: 0.4rem;
+  box-shadow: 0 0 3.2rem rgba(0, 0, 0, 0.2);
+}
+
+.msg-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3.2rem 0 0;
+}
+
+.message {
+  font-size: 2rem;
+  letter-spacing: 0.4rem;
+  margin-bottom: 3.2rem;
+}
+
+.score-highscore {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  font-size: 2rem;
+  font-family: cursive;
+  color: #ccc;
+}
+
+.footer {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  font-size: 1.4rem;
+  color: #ccc;
+  letter-spacing: 0.8rem;
+  text-align: center;
+}
+
+@media (min-width: 1000px) {
+  html {
+    font-size: 80%;
+  }
+}
